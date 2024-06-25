@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns="http://example.org/"
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/debf4a59-0330-4086-b33c-5f2b2c535a3c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>C_earlyCC</ns:leiden>
+    <ns:lineage>C_earlyACC</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/700cef96-5974-408d-8e64-74d8c73175f8"/>
+    <rdfs:label>C_earlyACC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0009041">
+    <rdfs:label>tuft cell of colon</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a3fc00e4-7646-4917-b666-75f09bee0049">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:type>absorptive</ns:type>
+    <rdfs:label>absorptive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0e1ba03d-b0ee-4507-ba7d-f90d8858b706">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:type>tuft</ns:type>
+    <rdfs:label>tuft</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc654c345c5a64266b95aae0c86607624">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_1000343"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0015003">
+    <rdfs:label>subcluster of</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfbf111a4e819434d853a553d60609a4a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009042"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1909e26b6ce049c193f6a008420d9b42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009043"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc">
+    <rdf:type rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:label>dataset</rdfs:label>
+    <ns:publication>https://doi.org/10.1016/j.jcmgh.2022.02.007</ns:publication>
+    <ns:download_link>https://datasets.cellxgene.cziscience.com/b1ff0e05-486e-4569-92c7-d9100c833a03.h5ad</ns:download_link>
+    <ns:collection>https://cellxgene.cziscience.com/collections/64b24fda-6591-4ce1-89e7-33eb6c43ad7b</ns:collection>
+    <ns:citation>Publication: https://doi.org/10.1016/j.jcmgh.2022.02.007 Dataset Version: https://datasets.cellxgene.cziscience.com/b1ff0e05-486e-4569-92c7-d9100c833a03.h5ad curated and distributed by CZ CELLxGENE Discover in Collection: https://cellxgene.cziscience.com/collections/64b24fda-6591-4ce1-89e7-33eb6c43ad7b</ns:citation>
+    <ns:schema_reference>https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.0.0/schema.md</ns:schema_reference>
+    <ns:schema_version>5.0.0</ns:schema_version>
+    <ns:title>A proximal-to-distal survey of healthy adult human small intestine and colon epithelium by single-cell transcriptomics</ns:title>
+    <ns:obs_meta>[[{"field_name": "lineage", "field_type": "author_cell_type_label"}], [{"field_name": "type", "field_type": "author_cell_type_label"}], [{"field_name": "leiden", "field_type": "author_cell_type_label"}]]</ns:obs_meta>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000495">
+    <rdfs:label>small intestine goblet cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/875c47a5-3857-4565-9cc3-45e9cf48fe7b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N84fe290259da42cd806e859e27570048"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>tuft cell of colon</ns:cell_type>
+    <ns:lineage>C_tuft</ns:lineage>
+    <ns:leiden>C_tuft</ns:leiden>
+    <obo:RO_0015003 rdf:resource="http://example.org/0e1ba03d-b0ee-4507-ba7d-f90d8858b706"/>
+    <rdfs:label>C_tuft</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/a37bc724-c40a-46f0-8489-3a6376446f7b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>EEC</ns:leiden>
+    <ns:type>EEC</ns:type>
+    <rdfs:label>EEC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/aebba0e7-8bd3-4b29-9d5f-7347d7e05ecb">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Na3afa77e5a7845379bd4af7b8a618d68"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>microfold cell of epithelium of small intestine</ns:cell_type>
+    <ns:lineage>SI_FAE</ns:lineage>
+    <ns:type>FAE</ns:type>
+    <ns:leiden>SI_FAE</ns:leiden>
+    <rdfs:label>SI_FAE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7d4feecee71e4faca09002ca6352b14d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_1000495"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/c7d3fe39-771c-4009-a815-c98a3852a06d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N40d991f4258949c59947d32329ca0346"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>progenitor cell</ns:cell_type>
+    <ns:type>secretory_prog</ns:type>
+    <ns:leiden>secretory_prog</ns:leiden>
+    <rdfs:label>secretory_prog</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8f2d7d35-9da9-4fb7-a9b0-114356f9c03b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N1909e26b6ce049c193f6a008420d9b42"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>intestinal crypt stem cell of colon</ns:cell_type>
+    <ns:lineage>C_ISC</ns:lineage>
+    <ns:leiden>C_ISC</ns:leiden>
+    <obo:RO_0015003 rdf:resource="http://example.org/e24b4f8a-a6f2-496e-b3d4-f9a096b5109d"/>
+    <rdfs:label>C_ISC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0503dd47-e49e-4612-b55c-a983ca1bd28d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>SI_intermAE</ns:leiden>
+    <ns:lineage>SI_intermAE</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/4777b40d-2199-4f06-8c60-fca7fa7f0986"/>
+    <rdfs:label>SI_intermAE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8a336b66-e3cf-4fc5-94bd-d1b0753f111c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>SI_earlyAE</ns:leiden>
+    <ns:lineage>SI_earlyAE</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/4777b40d-2199-4f06-8c60-fca7fa7f0986"/>
+    <rdfs:label>SI_earlyAE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/38fc8083-af70-4bde-ae0b-f79200c69ca7">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:type>TA</ns:type>
+    <rdfs:label>TA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84fe290259da42cd806e859e27570048">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009041"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7d3ae74c01934f62ad1d69374ad9aeee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002254"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0b9c65dc-df4d-44e8-a8fb-9efc9009f012">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N7d4feecee71e4faca09002ca6352b14d"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>small intestine goblet cell</ns:cell_type>
+    <ns:lineage>SI_goblet</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/cc385fac-96ae-431c-ba52-33fe03988a51"/>
+    <obo:RO_0015003 rdf:resource="http://example.org/931db0d2-c460-4d0d-a7e7-f08dcb66ac49"/>
+    <rdfs:label>SI_goblet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/700cef96-5974-408d-8e64-74d8c73175f8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Na921f3c1962147a18ed917d0105f2f6d"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>enterocyte of epithelium of large intestine</ns:cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a3fc00e4-7646-4917-b666-75f09bee0049"/>
+    <rdfs:label>enterocyte of epithelium of large intestine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3bbc56d1-fdfd-4c9b-a238-d5227b2e5928">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>SI_TA2</ns:leiden>
+    <ns:lineage>SI_TA2</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/ed1199d4-a482-4243-91b0-f2213e0956c2"/>
+    <rdfs:label>SI_TA2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ca94c4b0-5cfc-402a-8e6b-66696cbe603b">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>C_lateCC</ns:leiden>
+    <ns:lineage>C_lateACC</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/700cef96-5974-408d-8e64-74d8c73175f8"/>
+    <rdfs:label>C_lateACC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na3afa77e5a7845379bd4af7b8a618d68">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_1000353"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2fdba6f9a0174560aebb6443217d5db0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4030026"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0009011">
+    <rdfs:label>transit amplifying cell of colon</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/cc385fac-96ae-431c-ba52-33fe03988a51">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:type>goblet</ns:type>
+    <rdfs:label>goblet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b4f98153-bd8e-4d5f-a6e7-21be4d080e17">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:lineage>SI_secretory_prog</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/c7d3fe39-771c-4009-a815-c98a3852a06d"/>
+    <rdfs:label>SI_secretory_prog</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8bce3837-6f91-4682-9e06-2bbadfbd6e20">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N7d3ae74c01934f62ad1d69374ad9aeee"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>epithelial cell of small intestine</ns:cell_type>
+    <ns:lineage>SI_BEST4</ns:lineage>
+    <ns:leiden>SI_BEST4</ns:leiden>
+    <obo:RO_0015003 rdf:resource="http://example.org/0d40cec9-626c-41bc-a3f9-dcd328b62385"/>
+    <rdfs:label>SI_BEST4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/610ee1db-5e9e-4a7a-9df4-ebf0edd07ab5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>SI_matureAE</ns:leiden>
+    <ns:lineage>SI_matureAE</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/4777b40d-2199-4f06-8c60-fca7fa7f0986"/>
+    <rdfs:label>SI_matureAE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4777b40d-2199-4f06-8c60-fca7fa7f0986">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Ndb649b203f4f48fda092318dd3326d43"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>enterocyte of epithelium of small intestine</ns:cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/a3fc00e4-7646-4917-b666-75f09bee0049"/>
+    <rdfs:label>enterocyte of epithelium of small intestine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a40e9f004b34098a32fe604f4c0f772">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e51cdc5a-0413-4912-84d9-d678ac72d3db">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Nfbf111a4e819434d853a553d60609a4a"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>enteroendocrine cell of colon</ns:cell_type>
+    <ns:lineage>C_EEC</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/a37bc724-c40a-46f0-8489-3a6376446f7b"/>
+    <rdfs:label>C_EEC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002473">
+    <rdfs:label>composed primarily of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCL_0010001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>cell cluster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/41f7fb38-6978-4562-ae7a-9758d749be7e">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Na9d929e0865b4e77a64a186b00f5efc9"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>transit amplifying cell of colon</ns:cell_type>
+    <ns:lineage>C_TA</ns:lineage>
+    <ns:leiden>C_TA</ns:leiden>
+    <obo:RO_0015003 rdf:resource="http://example.org/38fc8083-af70-4bde-ae0b-f79200c69ca7"/>
+    <rdfs:label>C_TA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/b837b524-1d15-4761-a4b7-e4311ab25535">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N7a40e9f004b34098a32fe604f4c0f772"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>enteroendocrine cell of small intestine</ns:cell_type>
+    <ns:lineage>SI_EEC</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/a37bc724-c40a-46f0-8489-3a6376446f7b"/>
+    <rdfs:label>SI_EEC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4fefdf2b-e1fd-4ed5-b083-6d742096ed4d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>SI_TA</ns:leiden>
+    <ns:lineage>SI_TA</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/ed1199d4-a482-4243-91b0-f2213e0956c2"/>
+    <rdfs:label>SI_TA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000353">
+    <rdfs:label>microfold cell of epithelium of small intestine</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0009042">
+    <rdfs:label>enteroendocrine cell of colon</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/0d40cec9-626c-41bc-a3f9-dcd328b62385">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:type>BEST4+</ns:type>
+    <rdfs:label>BEST4+</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/41c18a74-7d44-4cc2-8bf5-dc7a68ffb02c">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N2ef6c0299377406ba98133e61f42bebb"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>intestinal tuft cell</ns:cell_type>
+    <ns:lineage>SI_tuft</ns:lineage>
+    <ns:leiden>SI_tuft</ns:leiden>
+    <obo:RO_0015003 rdf:resource="http://example.org/0e1ba03d-b0ee-4507-ba7d-f90d8858b706"/>
+    <rdfs:label>SI_tuft</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/931db0d2-c460-4d0d-a7e7-f08dcb66ac49">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>SI_secretory</ns:leiden>
+    <rdfs:label>SI_secretory</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/270fe6a8-20f6-4959-b178-df071c5178b5">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N144f6bb65f5e44229a2070ccf61bb8a7"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>intestinal crypt stem cell of small intestine</ns:cell_type>
+    <ns:lineage>SI_ISC</ns:lineage>
+    <ns:leiden>SI_ISC</ns:leiden>
+    <obo:RO_0015003 rdf:resource="http://example.org/e24b4f8a-a6f2-496e-b3d4-f9a096b5109d"/>
+    <rdfs:label>SI_ISC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0009012">
+    <rdfs:label>transit amplifying cell of small intestine</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/e24b4f8a-a6f2-496e-b3d4-f9a096b5109d">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:type>ISC</ns:type>
+    <rdfs:label>ISC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0009043">
+    <rdfs:label>intestinal crypt stem cell of colon</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/bf220acb-f5cc-4be1-ae49-a3c84a90642f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N0a3abf86f885472a936dd4e1459116da"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>colon goblet cell</ns:cell_type>
+    <ns:lineage>C_goblet</ns:lineage>
+    <ns:leiden>C_goblet</ns:leiden>
+    <obo:RO_0015003 rdf:resource="http://example.org/cc385fac-96ae-431c-ba52-33fe03988a51"/>
+    <rdfs:label>C_goblet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000334">
+    <rdfs:label>enterocyte of epithelium of small intestine</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0011026">
+    <rdfs:label>progenitor cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a3abf86f885472a936dd4e1459116da">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009039"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0009006">
+    <rdfs:label>enteroendocrine cell of small intestine</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/370534cb-02e6-4dd3-bee0-28d6eb67233f">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:lineage>C_secretory_prog</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/c7d3fe39-771c-4009-a815-c98a3852a06d"/>
+    <rdfs:label>C_secretory_prog</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002254">
+    <rdfs:label>epithelial cell of small intestine</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ed1199d4-a482-4243-91b0-f2213e0956c2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N0b5df19c201d4ed18413d72284f2bd20"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>transit amplifying cell of small intestine</ns:cell_type>
+    <obo:RO_0015003 rdf:resource="http://example.org/38fc8083-af70-4bde-ae0b-f79200c69ca7"/>
+    <rdfs:label>transit amplifying cell of small intestine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/d2466d2b-396a-4e8a-9f30-e27a7bd9d007">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="Nc654c345c5a64266b95aae0c86607624"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>paneth cell of epithelium of small intestine</ns:cell_type>
+    <ns:lineage>SI_paneth</ns:lineage>
+    <ns:type>paneth</ns:type>
+    <obo:RO_0015003 rdf:resource="http://example.org/931db0d2-c460-4d0d-a7e7-f08dcb66ac49"/>
+    <rdfs:label>SI_paneth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N144f6bb65f5e44229a2070ccf61bb8a7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/025a8f4e-5c9c-456d-9f52-89798e749cc8">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:leiden>SI_6-?</ns:leiden>
+    <ns:lineage>SI_AE2</ns:lineage>
+    <obo:RO_0015003 rdf:resource="http://example.org/4777b40d-2199-4f06-8c60-fca7fa7f0986"/>
+    <rdfs:label>SI_AE2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0009017">
+    <rdfs:label>intestinal crypt stem cell of small intestine</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2ef6c0299377406ba98133e61f42bebb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0019032"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0019032">
+    <rdfs:label>intestinal tuft cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8807acd2-993a-46d6-ad16-4198ed76e381">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PCL_0010001"/>
+    <rdf:type rdf:nodeID="N2fdba6f9a0174560aebb6443217d5db0"/>
+    <dcterms:source rdf:resource="http://example.org/760a6b50-628d-4b1a-8484-de2685465cbc"/>
+    <ns:cell_type>BEST4+ intestinal epithelial cell, human</ns:cell_type>
+    <ns:lineage>C_BEST4</ns:lineage>
+    <ns:leiden>C_BEST4</ns:leiden>
+    <obo:RO_0015003 rdf:resource="http://example.org/0d40cec9-626c-41bc-a3f9-dcd328b62385"/>
+    <rdfs:label>C_BEST4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na921f3c1962147a18ed917d0105f2f6d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002071"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/source">
+    <rdfs:label>has_source</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0009039">
+    <rdfs:label>colon goblet cell</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndb649b203f4f48fda092318dd3326d43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_1000334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000343">
+    <rdfs:label>paneth cell of epithelium of small intestine</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N40d991f4258949c59947d32329ca0346">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0b5df19c201d4ed18413d72284f2bd20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002071">
+    <rdfs:label>enterocyte of epithelium of large intestine</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na9d929e0865b4e77a64a186b00f5efc9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+    <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_4030026">
+    <rdfs:label>BEST4+ intestinal epithelial cell, human</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
